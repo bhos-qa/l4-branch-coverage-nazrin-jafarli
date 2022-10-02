@@ -1,9 +1,9 @@
 name: Build
 on:
   push:
-    branches: ['develop,feature/lab4']
+    branches: ['feature/lab4']
   pull_request:
-    branches: ['develop,feature/lab4']
+    branches: ['feature/lab4']
 jobs:
   build:
     name: Build
